@@ -1,5 +1,14 @@
 .jumbotron {
 	background-color: powderblue;
-	height: 400px;
-	margin-top: 270px;
+	height: 250px;
+}
+
+#Technical_Skills
+{
+	text-align: left;
+	list-style-position: inside;
+}
+#Technical_Experience
+{
+	text-align: left;
 }
