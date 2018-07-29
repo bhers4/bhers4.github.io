@@ -1,10 +1,12 @@
 .jumbotron {
 	background-image: url("Images/MontrealGithub.jpg");
+	/*
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: powderblue;
 	color: powderblue;
 	min-height: 400px;
+	*/
 }
 
 #Technical_Skills
