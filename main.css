@@ -1,8 +1,8 @@
 .jumbotron {
-	background-color: powderblue;
-	background-image:url("Images/MontrealGithub.jpg");
+	background-image: url("Images/MontrealGithub.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: powderblue;
 	height: 250px;
 }
 
