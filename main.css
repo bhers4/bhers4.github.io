@@ -3,7 +3,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: powderblue;
-	height: 250px;
+	color: powderblue;
+	min-height: 400px;
 }
 
 #Technical_Skills
