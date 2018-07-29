@@ -1,6 +1,14 @@
 .jumbotron {
 	background-image: url("Images/MontrealGithub.jpg");
-	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 55%;
+	background-color: #fff;
+	color: #FFF;
+	padding: 120px 45px;
+	letter-spacing: 3px;
+	margin-bottom: 0;
+	min-height: 400px;
 	/*
 	background-repeat: no-repeat;
 	background-size: cover;
