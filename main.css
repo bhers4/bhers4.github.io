@@ -8,12 +8,44 @@
 	width: 100%;
 }
 
-#Technical_Skills
-{
-	text-align: left;
-	list-style-position: inside;
+.about {
+	max-width: 1050px;	
 }
-#Technical_Experience
+.skills {
+	padding = 5px;
+}
+
+.experience
 {
-	text-align: left;
+	text-align:left;
+}
+
+.fab {
+	color: #659EC7;
+	font-size: 55px;
+	padding: 20px;
+	width: 100px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 30px;
+}
+
+.fab:hover {
+	color: #fed035;
+}
+
+.fas {
+	color: #659EC7;
+	font-size: 55px;
+	padding: 20px;
+	width: 100px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 30px;
+}
+
+.fas:hover {
+	color: #fed035;
 }

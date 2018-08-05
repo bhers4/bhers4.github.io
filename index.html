@@ -13,49 +13,119 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
   
+  <!--W3 School -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+  <!--Contact Section Icons-->
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  
 </head>
 <body>
 
-<div class="jumbotron text-center">
+<div class="w3-top">
+	<div class="w3-bar w3-white w3-wide w3-padding w3-card">
+	<a href="#home" class="w3-bar-item w3-button"><b>Ben Hers</b></a>
+	<div class="w3-right w3-hide-small">
+		<a href="#About" class = "w3-bar-iten w3-button">About</a>
+		<a href="#Technical_Experience" class = "w3-bar-iten w3-button">Experience</a>
+		<a href="#Projects" class = "w3-bar-iten w3-button">Projects</a> 
+		<a href="#Contact_Me" class = "w3-bar-iten w3-button">Contact</a>
+		
+	</div>
+	</div>
+</div>
+
+<div class="jumbotron text-center" id="home">
   <h1>Ben Hers</h1>
 </div>
 
-<div class="container" id="Technical_Skills">
-	<h1> Technical Skills </h1>
-	<ul style="list-style-type:disc">
-		<li>Python</li> <!-- Find nice way of adding like Django numpy tensorflow all that jazz -->
-		<li>C</li>
-		<li>Matlab</li>
-		<li>HTML/CSS</li>
-		<li>Verilog</li>
-
-<div class="container" id="Technical_Experience">
-	
-	<h1>Technical Experience</h1>
-	<h2>Research Co-op @ <a href="https://www.cadex.com/en/">Cadex Electronics Inc.</a></h2>
-	<h5> January 2018-December 2018</h5>
-	
-	<h3>Lithium Ion Battery State of Health Classification using Machine Learning</h3>
-	<h5>Gathered data and then developed Python scripts to train our binary classification algorithms on. We focused on simpler machine learning algorithms like decision trees, Naive Bayes,
-	and Logistic Regression due to them being light weight and easily transferable to firmware with a small code and memory footprint.</h5>
-	<h5>Investigated different machine learning algorithms and their respective cross validated accuracies. After chosing our primary 2 algorithms I investigated improvements
-	to the algorithms by visualizing the data and trying to fit different distributions to the data to improve the 10-Fold cross validated accuracy.</h5>
-	
-	<h3>System Modeling using Particle Swarm Optimization</h3>
-	<h5>Using Matlab and Python, developed a program that minimized the Root Mean Square Error of our model using gathered data</h5>
-	
-	<h3>Test Automation of Industrial Equipment</h3>
-	<h5>Controlled a variety of machines using Python such as power supplies,multimeters,and industrial thermal chambers both through serial port interfaces and through TCP/IP </h5>
-	
-	<h3>Database Improvements and Interfacing</h3>
-	<h5>Made a graphical user interface in Python to easily input data into which interfaced with a database through Django and SQL Alchemy</h5>
-	<h5>Developed and added to a program in Python which had functions that queried the database and returned the requested data or information </h5>
-	
+<div class="container-fluid Technical_Skills text-center" id="About">
+<h1><b> About </b></h1>
+<h2> <b>Education</b> </h2>
+<div class="container" id = "UBClogo">
+	<img src="Images/UBC_logo.png" width = "150" height = "150" >
+	<h4> University of British Columbia - Electrical Engineering </h4>
 </div>
 
-<div class="Contact Me" id="Contact_Me">
-<h2>Contact Me</h2>
-<h4>Email: bhers4@gmail.com</h4>
+</div>
+
+
+<div class="container-fluid Technical_Skills text-center" id="Technical_Skills">
+	<div class="row text-center" id = "skills" >
+			<div class="col-sm-4 skills">
+				<p class="skill-head"><b>Programming</b></p>
+				<p>Python,C,Matlab,HTML/CSS,Verilog</p>
+			</div>
+			<div class="col-sm-4 skills">
+				<p class="skill-head"><b>Machine Learning,Optimization,Modeling</b></p>
+				<p>Algorithms: Naive Bayes,Logistic Regression,Particle Swarm Optimization, Genetic, Extended Kalman Filter, Artifical Neural Networks, Convolutional Neural Networks, Decision Trees</p>
+				<p>Python Libraries: Sci-kit Learn, Keras, Pandas, Numpy, Tensorflow</p>
+			</div>
+			<div class="col-sm-4 skills">
+				<p class="skill-head"><b>Software</b></p>
+				<p>Altium,Quartus,Solidworks,Autocad,Autodesk Inventor</p>
+			</div>
+	</div>
+</div>
+<div class="container-fluid resume text-center" id="resume">
+<div>
+	<a href="resume.pdf" class="btn btn-lg btn-default" target="_blank">
+		<span class="glyphicon glyphicon-save"></span> Download Resume
+	</a>
+</div>
+	
+
+<div class="container-fluid Technical_Experience text-center" id="Technical_Experience">
+	
+	<h1><b>Experience</b></h1>
+	<div class="col-md-12 experience" id="experience">
+		<h2><b>Research Co-op @ <a href="https://www.cadex.com/en/">Cadex Electronics Inc.</a></b></h2>
+		<h5> January 2018-December 2018</h5>
+	
+		<h3><b>Lithium Ion Battery State of Health Classification using Machine Learning</b></h3>
+		<h5>Gathered data and then developed Python scripts to train our binary classification algorithms on. We focused on simpler machine learning algorithms like decision trees, Naive Bayes,
+		and Logistic Regression due to them being light weight and easily transferable to firmware with a small code and memory footprint.</h5>
+		<h5>Investigated different machine learning algorithms and their respective cross validated accuracies. After chosing our primary 2 algorithms I investigated improvements
+		to the algorithms by visualizing the data and trying to fit different distributions to the data to improve the 10-Fold cross validated accuracy.</h5>
+	
+		<h3><b>Firmware Implementation of Binary Classification Algorithms</b></h3>
+		<h5>Integrated and developed firmware for lightweight machine learning algorithms in a FreeRTOS system with an aim for minimzing the memory footprint in the firmware.</h5>
+		
+		<h3><b>System Modeling using Particle Swarm Optimization</b></h3>
+		<h5>Using Matlab and Python, developed a program that minimized the Root Mean Square Error of our model using gathered data. Helped develop an Extended Kalman Filter which applied our non linear dynamic model to Li-ion batteries.</h5>
+	
+		<h3><b>Test and Automation System Development</b></h3>
+		<h5> Helped develop a publisher-subscriber control program for multiple industrial machines which were controlled over serial ports or through TCP/IP </h5>
+	
+		<h3><b>Database Improvements and Interfacing</b></h3>
+		<h5>Made a graphical user interface in Python to easily input data into which interfaced with a database through Django and SQL Alchemy</h5>
+		<h5>Developed and added to a program in Python which had functions that queried the database and returned the requested data or information </h5>
+	</div>
+</div>
+
+<div class="container-fluid Projects text-center" id="Projects">
+	
+	<h1><b>Projects</b></h1>
+	<div class="col-md-12 experience" id="experience">
+		<h2><b>UBC Thunderbots - Electrical Co-Lead</b></h2>
+		<h3><b>About</b></h3>
+		<h5>UBC Thunderbots is a student design teams that creates autonomous 
+		soccer-playing robots to compete in the small size league of the annual 
+		RoboCup competition and conference. The goal of the RoboCup organization 
+		is use the complex and publicly appealing platform of robotic soccer to 
+		promote research and advancement in the field of robotics and artificial 
+		intelligence (AI)</h5>
+		<h3><b>Conferences</b></h3>
+		<h5><a href="https://www.robocup2017.org/eng/index.html">Robocup 2017 - Nagoya, Japan</a></h5>
+		<h5><a href="http://www.robocup2018.com/">Robocup 2018 - Montreal, Canada</a></h5>
+	</div>
+</div>
+
+<div class="container-fluid Contact text-center" id="Contact_Me">
+<h2><b>Contact Me</b></h2>
+	<a href="mailto:bhers4@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+	<a href="https://github.com/bhers4" target="_blank"><i class="fab fa-github"></i></a>
+	<a href="https://www.linkedin.com/in/benjamin-hers-10933b141/" target="_blank"><i class="fab fa-linkedin"></i></a>
 
 </body>
 </html>
