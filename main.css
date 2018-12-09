@@ -14,7 +14,14 @@ p{
 }
 
 
-img:hover
+.experiencebackground img:hover
+{
+	opacity: 0.5;
+	cursor: pointer;
+	backdrop-filter: ;
+}
+
+#Projects img:hover
 {
 	opacity: 0.5;
 	cursor: pointer;
@@ -34,15 +41,41 @@ img:hover
 .whitebackgroundben .img-thumbnail
 {
 	background: #e9ecef;
-	height: 270px;
+	height: 275px;
 	width: 80%;
 	overflow: hidden;
 }
 
-/*#tbotspic*/
-/*{*/
-	/*padding-bottom: 10%;*/
-/*}*/
+.Cadex
+{
+
+}
+
+#Projects
+{
+	background: #e6f2ff;
+}
+
+#RNN
+{
+	height: 80%;
+	width: 80%;
+	overflow: hidden;
+}
+
+#ANN
+{
+	height: 80%;
+	width: 80%;
+	overflow: hidden;
+}
+
+#CNN
+{
+	height: 80%;
+	width: 100%;
+	overflow: hidden;
+}
 
 li
 {
@@ -52,6 +85,11 @@ li
 .container_stretch
 {
 	width: 80%;
+}
+
+.container_stretch_90
+{
+	width: 90%;
 }
 
 
@@ -94,4 +132,41 @@ li
 .UBCLogo
 {
 	border: 0;
+}
+
+
+@media (max-width: 1600px) {
+	.whitebackgroundben .img-thumbnail
+	{
+		background: #e9ecef;
+		height: 200px;
+		width: 80%;
+		overflow: hidden;
+	}
+
+	#Projects .img-thumbnail
+	{
+		background: #e9ecef;
+		height: 200px;
+		width: 80%;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 1300px) {
+	.whitebackgroundben .img-thumbnail
+	{
+		background: #e9ecef;
+		height: 150px;
+		width: 80%;
+		overflow: hidden;
+	}
+
+	#Projects .img-thumbnail
+	{
+		background: #e9ecef;
+		height: 150px;
+		width: 80%;
+		overflow: hidden;
+	}
 }
