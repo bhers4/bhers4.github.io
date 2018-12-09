@@ -45,6 +45,18 @@
 					<a href="" class="nav-link">Home</a>
 				</li>
 			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li class="nav-item mx-2">
+					<a href="#aboutedu">About</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a href="#Experience">Experience</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a href="#Projects">Projects</a>
+				</li>
+			</ul>
 		</div>
 	</nav>
 
@@ -181,7 +193,7 @@
 	</div>
 
 	<!--Experience-->
-	<div class="experiencebackground">
+	<div class="experiencebackground pt-4">
 		<div id = "Experience" class="container-fluid container_stretch text-center">
 			<h1 class="display-3">Experience</h1>
 			<div class="whitebackgroundben">
@@ -209,7 +221,7 @@
 
 	<!--Projects Section-->
 	<div id = "Projects" >
-		<div class="container-fluid container_stretch_90 text-center">
+		<div class="container-fluid container_stretch_90 text-center pt-4">
 			<h1 class="display-3">Projects</h1>
 			<div class="row justify-content-between mb-4">
 				<!--ANN	-->
@@ -233,6 +245,28 @@
 			</div>
 
 			<hr>
+
+
+			<div class="row justify-content-between mb-4">
+				<!-- C++ Escape Room-->
+				<div class="col-lg-4 col-md-6">
+					<a class="modal-text" data-toggle="modal" data-target="#EscapeModal"><img id = "Escaperoom" class="img-thumbnail center-block" src="imgs/UnrealEngineGame.PNG" alt=""></a>
+					<h2>C++ Escape Room Game using Unreal Engine</h2>
+					<h4>Have to explore a 2 storey building to trigger a secret pad to open the door</h4>
+				</div>
+				<!--This website-->
+				<div class="col-lg-4 col-md-6">
+					<a class="modal-text" data-toggle="modal" data-target="#WebsiteModal"><img id = "website" class="img-thumbnail center-block" src="imgs/htmlcssjs.png" alt=""></a>
+					<h2>This Website</h2>
+					<h4>Used HTML/CSS/Bootstrap and Javascript to create this website</h4>
+				</div>
+				<!--Coming Soon-->
+				<div class="col-lg-4 col-md-6">
+					<h3>Coming Soon</h3>
+				</div>
+			</div>
+
+
 		</div>
 	</div>
 
@@ -385,7 +419,7 @@
 		</div>
 	</div>
 
-	<!--CNN Modal-->
+	<!--RNN Modal-->
 	<div class="modal fade" id="RNNModal" tabindex="-1" role="dialog" aria-labelledby="RNNTitle" aria-hidden="true">
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
@@ -406,6 +440,65 @@
 					<p>
 						All code is in my Github account and the data is in the images folder.
 						The Convolutional Neural Network code is <span><a href="https://github.com/bhers4/Deep_Learning/tree/master/Recurrent_Neural_Networks/RNN">here</a></span>
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--C++ Escape Room Modal-->
+	<div class="modal fade" id="EscapeModal" tabindex="-1" role="dialog" aria-labelledby="C++Title" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="C++Title">Unreal Engine C++ Game</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<h2>Escape Room Game</h2>
+					<p>
+						Using the Unreal Engine, created a escape room style game and developed a multi-storey building
+						to escape from. Used C++ to code the mechanisms in the game such as triggering the opening of a door.
+						Used Unreal Engine 4.19.0.
+					</p>
+					<h4>Link to Code</h4>
+					<p>
+						All code is in my Github account.
+						The C++ game code is <span><a href="https://github.com/bhers4/Unreal/tree/master/BuildingEscape/BuildingEscapeProj">here</a></span>
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--C++ Escape Room Modal-->
+	<div class="modal fade" id="WebsiteModal" tabindex="-1" role="dialog" aria-labelledby="WebsiteTitle" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="WebsiteTitle">Portfolio Website</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<h2>Web Dev</h2>
+					<p>
+						Using HTML/CSS and Bootstrap 4 created the website and added some animations in using Javascript.
+					</p>
+					<h4>Link to Code</h4>
+					<p>
+						All code is in my Github account.
+						The Website source files are <span><a href="https://github.com/bhers4/bhers4.github.io">here</a></span>
 					</p>
 				</div>
 				<div class="modal-footer">

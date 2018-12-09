@@ -10,7 +10,6 @@ p{
 .img-thumbnail
 {
 	border-width: 0px;
-	/*padding-left: 15%;*/
 }
 
 
@@ -66,6 +65,17 @@ p{
 .modal-dialog
 {
 	width: 2000px;
+}
+
+
+#Escaperoom
+{
+	height: 300px;
+}
+
+#website
+{
+	height: 300px;
 }
 
 #ANN
@@ -139,6 +149,11 @@ li
 	border: 0;
 }
 
+#mainnavbar
+{
+	margin-bottom: 1.5rem;
+}
+
 
 @media (max-width: 1600px) {
 	.whitebackgroundben .img-thumbnail
@@ -156,6 +171,7 @@ li
 		width: 80%;
 		overflow: hidden;
 	}
+
 }
 
 @media (max-width: 1300px) {
@@ -173,6 +189,16 @@ li
 		height: 150px;
 		width: 80%;
 		overflow: hidden;
+	}
+
+	#Escaperoom
+	{
+		height: 260px;
+	}
+
+	#website
+	{
+		height: 260px;
 	}
 }
 
