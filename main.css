@@ -58,21 +58,26 @@ p{
 
 #RNN
 {
-	height: 80%;
+	height: 275px;
 	width: 80%;
 	overflow: hidden;
 }
 
+.modal-dialog
+{
+	width: 2000px;
+}
+
 #ANN
 {
-	height: 80%;
-	width: 80%;
+	height: 275px;
+	width: 70%;
 	overflow: hidden;
 }
 
 #CNN
 {
-	height: 80%;
+	height: 275px;
 	width: 100%;
 	overflow: hidden;
 }

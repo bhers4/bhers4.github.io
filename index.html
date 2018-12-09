@@ -214,57 +214,25 @@
 			<div class="row justify-content-between mb-4">
 				<!--ANN	-->
 				<div class="col-lg-4 col-md-6">
-					<a class="modal-text" data-toggle="modal" data-target="#TbotsModal"><img id = "ANN" class="img-thumbnail center-block" src="imgs/ANN.png" alt=""></a>
+					<a class="modal-text" data-toggle="modal" data-target="#ANNModal"><img id = "ANN" class="img-thumbnail center-block" src="imgs/ANN.png" alt=""></a>
 					<h2>Artificial Neural Network</h2>
 					<h4>Detects if customer will leave a bank given current financial information</h4>
 				</div>
 				<!--CNN-->
 				<div class="col-lg-4 col-md-6">
-					<a class="modal-text" data-toggle="modal" data-target="#TbotsModal"><img id = "CNN" class="img-thumbnail center-block" src="imgs/CNN_Summary_Img1.png" alt=""></a>
+					<a class="modal-text" data-toggle="modal" data-target="#CNNModal"><img id = "CNN" class="img-thumbnail center-block" src="imgs/CNN_Summary_Img1.png" alt=""></a>
 					<h2>Convolutional Neural Network</h2>
-					<h4>Discriminates between animals training on 10000 images and testing on 5000</h4>
+					<h4>Discriminates between animals training on 8000 images and testing on 2000</h4>
 				</div>
 				<!--RNN-->
 				<div class="col-lg-4 col-md-6">
-					<a class="modal-text" data-toggle="modal" data-target="#TbotsModal"><img id = "RNN" class="img-thumbnail center-block" src="imgs/RNN_Predicted_Stock_Price.png" alt=""></a>
+					<a class="modal-text" data-toggle="modal" data-target="#RNNModal"><img id = "RNN" class="img-thumbnail center-block" src="imgs/RNN_Predicted_Stock_Price.png" alt=""></a>
 					<h2>Recurrent Neural Network</h2>
 					<h4>Using stock price from previous 3 months determines tomorrow's opening stock price</h4>
 				</div>
 			</div>
 
 			<hr>
-
-			<!--<div class="row justify-content-between">-->
-				<!--&lt;!&ndash;RBM	&ndash;&gt;-->
-				<!--<div class="col-lg-4 col-md-6">-->
-					<!--<h1>Artifical Neural Network</h1>-->
-				<!--</div>-->
-				<!--&lt;!&ndash;OpenCV&ndash;&gt;-->
-				<!--<div class="col-lg-4 col-md-6">-->
-					<!--<h1>Artifical Neural Network</h1>-->
-				<!--</div>-->
-				<!--&lt;!&ndash;SOM&ndash;&gt;-->
-				<!--<div class="col-lg-4 col-md-6">-->
-					<!--<h1>Artifical Neural Network</h1>-->
-				<!--</div>-->
-			<!--</div>-->
-
-			<!--<hr>-->
-
-			<!--<div class="row justify-content-between">-->
-				<!--&lt;!&ndash;C++ Escape Room	&ndash;&gt;-->
-				<!--<div class="col-lg-4 col-md-6">-->
-					<!--<h1>Artifical Neural Network</h1>-->
-				<!--</div>-->
-				<!--&lt;!&ndash;Coming Soon&ndash;&gt;-->
-				<!--<div class="col-lg-4 col-md-6">-->
-					<!--<h1>Artifical Neural Network</h1>-->
-				<!--</div>-->
-				<!--&lt;!&ndash;Coming Soon&ndash;&gt;-->
-				<!--<div class="col-lg-4 col-md-6">-->
-					<!--<h1>Artifical Neural Network</h1>-->
-				<!--</div>-->
-			<!--</div>-->
 		</div>
 	</div>
 
@@ -272,7 +240,7 @@
 
 
 
-	<!-- Modal -->
+	<!-- Cadex Modal -->
 	<div class="modal fade" id="CadexModal" tabindex="-1" role="dialog" aria-labelledby="CadexTitle" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -304,7 +272,7 @@
 		</div>
 	</div>
 
-	<!-- Modal -->
+	<!-- Tbots Modal -->
 	<div class="modal fade" id="TbotsModal" tabindex="-1" role="dialog" aria-labelledby="TbotsTitle" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -347,6 +315,98 @@
 						kicking and chipping the ball.
 					</p>
 
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--ANN Modal-->
+	<div class="modal fade" id="ANNModal" tabindex="-1" role="dialog" aria-labelledby="ANNTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="ANNTitle">Artifical Neural Network</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2>Customer Predictions</h2>
+					<p>
+						Given a dataset from a hypothetical bank with customer financial
+						information and whether or not they left the bank, I trained an
+						ANN to be able to predict whether or not the customer
+						will leave the bank using Python and Tensorflow with an accuracy of 85%.
+					</p>
+					<h4>Link to Code</h4>
+					<p>
+						All code is in my Github account and the data is in the csv in the folder.
+						The Artifical Neural Network code is <span><a href="https://github.com/bhers4/Deep_Learning/tree/master/Artifical_Neural_Networks">here</a></span>
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--CNN Modal-->
+	<div class="modal fade" id="CNNModal" tabindex="-1" role="dialog" aria-labelledby="CNNTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="CNNTitle">Convolutional Neural Network</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2>Animal Classification</h2>
+					<p>
+						Using a simple set of images(5000 dogs and 5000 cats), I trained a
+						Convolutional Neural Network to be able to predict if the animal in the image
+						was a cat or a dog using Python and Tensorflow with an accuracy of 85%.
+					</p>
+					<h4>Link to Code</h4>
+					<p>
+						All code is in my Github account and the data is in the images folder.
+						The Convolutional Neural Network code is <span><a href="https://github.com/bhers4/Deep_Learning/tree/master/Convolutional_Neural_Network">here</a></span>
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--CNN Modal-->
+	<div class="modal fade" id="RNNModal" tabindex="-1" role="dialog" aria-labelledby="RNNTitle" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="RNNTitle">Recurrent Neural Network</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<h2>Opening Stock Price Prediction</h2>
+					<p>
+						Using a dataset of Google's stock price from 2011-2017, trained a recurrent neural network on the opening
+						to stock price to predict the following day's stock price using Python and Tensorflow.
+					</p>
+					<img class="center-block" src="imgs/RNN_Predicted_Stock_Price.png" alt="">
+					<h4>Link to Code</h4>
+					<p>
+						All code is in my Github account and the data is in the images folder.
+						The Convolutional Neural Network code is <span><a href="https://github.com/bhers4/Deep_Learning/tree/master/Convolutional_Neural_Network">here</a></span>
+					</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
