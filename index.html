@@ -1,153 +1,303 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Ben Hers</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!--JQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  
-  <!--Bootstrap-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="main.css">
-  
-  <!--W3 School -->
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  
-  <!--Contact Section Icons-->
-  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-  
+	<title>Ben Hers</title>
+
+	<!-- Include Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!--JQuery-->
+	<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+
+	<!--PopperJS-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<!--BootstrapJS-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<!-- Include Javascript File -->
+	<script src="functions.js"></script>
+
+	<!-- Include FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- Include CSS file -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+		
+	<!-- Include Skillbar CSS file -->
+	<link rel="stylesheet" type="text/css" href="skillbar.css">
+
 </head>
 <body>
 
-<div class="w3-top">
-	<div class="w3-bar w3-white w3-wide w3-padding w3-card">
-	<a href="#home" class="w3-bar-item w3-button"><b>Ben Hers</b></a>
-	<div class="w3-right w3-hide-small">
-		<a href="#About" class = "w3-bar-iten w3-button">About</a>
-		<a href="#Technical_Experience" class = "w3-bar-iten w3-button">Experience</a>
-		<a href="#Projects" class = "w3-bar-iten w3-button">Projects</a> 
-		<a href="#Macine_Learning" class = "w3-bar-iten w3-button">Machine Learning</a>
-		<a href="#Contact_Me" class = "w3-bar-iten w3-button">Contact</a>
-		
-	</div>
-	</div>
-</div>
+	<!--NavBar-->
+	<nav id="mainnavbar" class="navbar  fixed-top navbar-dark bg-dark navbar-expand-md">
+		<a href="#" class="navbar-brand">Ben Hers</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navLinks">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="" class="nav-link">Home</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-<div class="jumbotron text-center" id="home">
-  <h1>Ben Hers</h1>
-</div>
-
-<div class="container-fluid Technical_Skills text-center" id="About">
-<h1><b> About </b></h1>
-<h2> <b>Education</b> </h2>
-<div class="container" id = "UBClogo">
-	<img src="Images/UBC_logo.png" width = "150" height = "150" >
-	<h4> University of British Columbia - Bachelors of Electrical Engineering 2016-2020</h4>
-</div>
-
-</div>
-
-
-<div class="container-fluid Technical_Skills text-center" id="Technical_Skills">
-	<div class="row text-center" id = "skills" >
-			<div class="col-sm-4 skills">
-				<p class="skill-head"><b>Programming</b></p>
-				<p>Python,C,Matlab,HTML/CSS,SQL,Verilog</p>
+	<!-- Header -->
+	<div id = "jumboheader" class="jumbotron">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-6 col-sm-12">
+						<h1>Benjamin Hers</h1>
+						<h4><i class="fas fa-envelope"></i> bhers4@gmail.com</h4>
+						<h4><i class="fas fa-map-marker-alt"></i> Vancouver, BC</h4>
+				</div>
+				<div class="col-md-6 col-sm-12">
+						<h1>Find Me</h1>
+						<h4><i class="fab fa-github-square"></i> <a href="https://github.com/bhers4">bhers4</a></h4>
+						<h4><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/benjamin-hers/">Benjamin Hers</a></h4>
+				</div>
 			</div>
-			<div class="col-sm-4 skills">
-				<p class="skill-head"><b>Machine Learning, Optimization, and Modeling</b></p>
-				<p>Algorithms: Naive Bayes,Logistic Regression,Particle Swarm Optimization, Genetic, Extended Kalman Filter, Artifical Neural Networks, Convolutional Neural Networks, Decision Trees, Recurrent Neural Networks</p>
-				<p>Python Libraries: Sci-kit Learn, Keras, Pandas, Numpy, Tensorflow, Django, SQLAlchemy</p>
+		</div>
+	</div>
+
+	<!-- About and Education Side by Side -->
+	<div id="aboutedu" class="container-fluid">
+		<div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<!-- About -->
+					<h2>About</h2>
+					<p>
+						My areas of interest are Robotics, Machine Learning, and Software Development.
+						I am passionate about learning new technologies and building projects from robots to software tools.
+						Looking for an internship for 4 months starting May 2019.
+					</p>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<!-- About -->
+					<h2>Education</h2>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<div id="UBCLogo">
+								<!-- UBC Image -->
+								<img src="http://www.volleyballbc.org/wp-content/uploads/2018/08/ubc-logo-png-transparent.png" class="img-thumbnail">
+							</div>
+						</div>
+
+						<div class="col-lg-9 col-md-6 col-sm-12">
+							<h1>University of British Columbia</h1>
+							<h4>Electrical Engineering</h4>
+							<h4>Graduation: April 2020</h4>
+
+						</div>
+
+					</div>
+				</div>
 			</div>
-			<div class="col-sm-4 skills">
-				<p class="skill-head"><b>Software</b></p>
-				<p>Altium, Quartus, Solidworks, Autocad, Autodesk Inventor</p>
-				<p>IAR, CubeMX, Virtual Box</p>
+		</div>
+	</div>
+
+
+
+
+	<!-- Programming Languages and Skillbars -->
+	<div id = "programmingskills" class="container-fluid mb-2">
+		<div class="row">
+			<div id="skills" class="col-lg-4 col-md-12">
+			<h2>Programming Proficiency</h2>
+
+			<!-- TO Have more control put every skill into the bootstrap grid -->
+			<div class="skillbar clearfix" data-percent="100%">
+				<!-- <div class="skillbar-title" style="background: #d35400;"><span>Python</span></div> -->
+				<div class="skillbar-title" style="background: #e67e22;"><span>Python</span></div>
+				<div class="skillbar-bar" style="background: #e67e22;"></div>
+				<div class="skill-bar-percent">100%</div>
+			</div> <!-- End Skill Bar -->
+
+			<div class="skillbar clearfix " data-percent="80%">
+			<div class="skillbar-title" style="background: #2980b9;"><span>C</span></div>
+			<div class="skillbar-bar" style="background: #3498db;"></div>
+			<div class="skill-bar-percent">80%</div>
+			</div> <!-- End Skill Bar -->
+
+			<div class="skillbar clearfix " data-percent="75%">
+			<div class="skillbar-title" style="background: #2c3e50;"><span>C++</span></div>
+			<div class="skillbar-bar" style="background: #2c3e50;"></div>
+			<div class="skill-bar-percent">75%</div>
+			</div> <!-- End Skill Bar -->
+
+			<div class="skillbar clearfix " data-percent="60%">
+				<div class="skillbar-title" style="background: #333333;"><span>Matlab</span></div>
+				<div class="skillbar-bar" style="background: #525252;"></div>
+				<div class="skill-bar-percent">60%</div>
+			</div> <!-- End Skill Bar -->
+
+			<div class="skillbar clearfix " data-percent="50%">
+				<div class="skillbar-title" style="background: #124e8c;"><span>HTML/CSS</span></div>
+				<div class="skillbar-bar" style="background: #4288d0;"></div>
+				<div class="skill-bar-percent">50%</div>
+			</div> <!-- End Skill Bar -->
+
+			<div class="skillbar clearfix " data-percent="40%">
+				<div class="skillbar-title" style="background: #27ae60;"><span>Javascript</span></div>
+				<div class="skillbar-bar" style="background: #2ecc71;"></div>
+				<div class="skill-bar-percent">40%</div>
+			</div> <!-- End Skill Bar -->
+
+			<div class="skillbar clearfix " data-percent="30%">
+				<div class="skillbar-title" style="background: #46465e;"><span>SQL</span></div>
+				<div class="skillbar-bar" style="background: #5a68a5;"></div>
+				<div class="skill-bar-percent">30%</div>
+			</div> <!-- End Skill Bar -->
 			</div>
-	</div>
-</div>
-<div class="container-fluid resume text-center" id="resume">
-<div>
-	<a href="resume.pdf" class="btn btn-lg btn-default" target="_blank">
-		<span class="glyphicon glyphicon-save"></span> Download Resume
-	</a>
-</div>
-	
 
-<div class="container-fluid Technical_Experience text-center" id="Technical_Experience">
-	
-	<h1><b>Experience</b></h1>
-	<div class="col-md-12 experience" id="experience">
-		<h2><b>Research Co-op @ <a href="https://www.cadex.com/en/">Cadex Electronics Inc.</a></b></h2>
-		<h5> January 2018-December 2018</h5>
-	
-		<h3><b>Lithium Ion Battery State of Health Classification using Machine Learning</b></h3>
-		<h5>Gathered data and then developed Python scripts to train our binary classification algorithms on. We focused on simpler machine learning algorithms like decision trees, Naive Bayes,
-		and Logistic Regression due to them being light weight and easily transferable to firmware with a small code and memory footprint.</h5>
-		<h5>Investigated different machine learning algorithms and their respective cross validated accuracies. After chosing our primary 2 algorithms I investigated improvements
-		to the algorithms by visualizing the data and trying to fit different distributions to the data to improve the 10-Fold cross validated accuracy.</h5>
-	
-		<h3><b>Firmware</b><h3>
-		<h3>Implementation of Binary Classification Algorithms</h3>
-		<h5>Integrated and developed firmware for lightweight machine learning algorithms in a FreeRTOS system with an aim for minimzing the memory footprint in the firmware.</h5>
-		<h3>Developing Firmware using an ARM Cortex M7 for Performance Analysis</h3>
-		<h5>Using IAR, used freertos to schedule multiple tasks to handle PWM generation, ADC routines, and DAC outputs to test the high resolution timers and accuracy of the ADC's given a specified waveform.
-		<h3><b>System Modeling using Particle Swarm Optimization</b></h3>
-		<h5>Using Matlab and Python, developed a program that minimized the Root Mean Square Error of our model using gathered data. Helped develop an Extended Kalman Filter which applied our non linear dynamic model to Li-ion batteries.</h5>
-	
-		<h3><b>Test and Automation System Development</b></h3>
-		<h5> Helped develop a publisher-subscriber control program for multiple industrial machines which were controlled over serial ports or through TCP/IP. Using PyQt5 helped develop an 
-			 interface using different threads and queues to handle reading information from up to 15 different machines simultaneously</h5>
-	
-		<h3><b>Database Improvements and Interfacing</b></h3>
-		<h5>Made a graphical user interface in Python to easily input data into which interfaced with a database through Django and SQL Alchemy</h5>
-		<h5>Developed and added to a program in Python which had functions that queried the database and returned the requested data or information </h5>
-		<h5>Using SQL Server Management Studio, used SQL statements to manage our database</h5>
-		
-		<h3><b>HyperParameter Optimization for an Extended Kalman Filter</b></h3>
-		<h5>Using Python, SQLAlchemy, and Sci-kit Learn I created a program that interfaces with a database to optimize 5 different tunable parameters in an extended kalman filter to 
-			help improve performance and automate the process to minimize costs and hours put into optimizing performance</h5>
-		
+			<div class="col-lg-4 col-md-6">
+				<h2>Software Frameworks</h2>
+				<ul>
+					<li>NodeJS</li>
+					<li>MongoDB</li>
+					<li>Linux</li>
+					<li>Bootstrap</li>
+					<li>Unreal Engine</li>
+				</ul>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<h2>Machine Learning Frameworks</h2>
+				<ul>
+					<li>Tensorflow</li>
+					<li>PyTorch</li>
+					<li>OpenCV</li>
+					<li>OpenAI</li>
+					<li>Scikit-Learn</li>
+				</ul>
+			</div>
+		</div>
 	</div>
-</div>
 
-<div class="container-fluid Projects text-center" id="Projects">
-	
-	<h1><b>Projects</b></h1>
-	<div class="col-md-12 experience" id="experience">
-		<h2><b>UBC Thunderbots - Electrical Co-Lead</b></h2>
-		<h3><b>About</b></h3>
-		<h5>UBC Thunderbots is a student design teams that creates autonomous 
-		soccer-playing robots to compete in the small size league of the annual 
-		RoboCup competition and conference. The goal of the RoboCup organization 
-		is use the complex and publicly appealing platform of robotic soccer to 
-		promote research and advancement in the field of robotics and artificial 
-		intelligence (AI)</h5>
-		<h3><b>Conferences</b></h3>
-		<h5><a href="https://www.robocup2017.org/eng/index.html">Robocup 2017 - Nagoya, Japan</a></h5>
-		<h5><a href="http://www.robocup2018.com/">Robocup 2018 - Montreal, Canada</a></h5>
-		<h3><b>Projects</b></h3>
-		<h4>Hardware Development and PCB Layout</h4>
-		<h5>Developed and improved main control board and did all of the PCB Layout in Altium as well as for a smaller radio communiciations board</h5>
-		<h4>Firmware Development</h4>
-		<h5>Helped improve and develop firmware in a Linux based system</h5>
-	</div>		
-		
-	<div class="col-md-12 experience" id="Macine_Learning">
-		<h2><b>Artifical Neural Networks</b></h2>
-		<h2><b>Convolutional Neural Networks</b></h2>
-		<h2><b>Recurrent Neural Networks</b></h2>
+	<!--Experience-->
+	<div class="experiencebackground">
+		<div id = "Experience" class="container-fluid container_stretch text-center">
+			<h1 class="display-3">Experience</h1>
+			<div class="whitebackgroundben">
+				<div class="row justify-content-center">
+
+					<div class="col-md-4 Cadex mx-5">
+							<div class="row justify-content-center">
+								<div class="col-md-10">
+								<a class="modal-text" data-toggle="modal" data-target="#CadexModal"><img class="img-thumbnail center-block" src="cadex.jpeg" alt=""></a>
+								</div>
+							</div>
+							<h1>Cadex Electronics Inc.</h1>
+							<h4>Research Engineer Intern</h4>
+						</div>
+
+						<div class="col-md-4 Cadex mx-5">
+							<a class="modal-text" data-toggle="modal" data-target="#TbotsModal"><img id = "tbotspic" class="img-thumbnail center-block" src="tbots.jpg" alt=""></a>
+							<h1>UBC Thunderbots</h1>
+							<h4>Electrical Co-Lead</h4>
+						</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
 
-<div class="container-fluid Contact text-center" id="Contact_Me">
-<h2><b>Contact Me</b></h2>
-	<a href="mailto:bhers4@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-	<a href="https://github.com/bhers4" target="_blank"><i class="fab fa-github"></i></a>
-	<a href="https://www.linkedin.com/in/benjamin-hers-10933b141/" target="_blank"><i class="fab fa-linkedin"></i></a>
+	<!--Projects Section-->
+	<div class="container-fluid container_stretch text-center">
+		<h1>Hello</h1>
+	</div>
+
+
+
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="CadexModal" tabindex="-1" role="dialog" aria-labelledby="CadexTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="CadexTitle">Cadex Electronics Inc.</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h4>Research Engineer Intern</h4>
+					<p>
+						As a Research Engineer Intern, my job was to gather data and implement various machine learning
+						algorithms which were implemented in our products. I developed different classification and regression
+						algorithms using frameworks such as Tensorflow and Sci-kit Learn which helped the company determine the
+						state of health of Li-ion batteries. This involved lots of data analysis and I sped up the process by
+						developing software tools using Python to automate the process.
+						I automated the data gathering process on up to 20 machines simultaneously by using multithreading and a publish/subscribe
+						framework and developed a GUI that other Engineers could use to speed
+						up the process of gathering data. The data was stored in a database which I used Django to interface with and ran the
+						webserver with Apache using a Linux VM. I also developed prototype firmware for DSP applications
+						using an ARM Cortex M7 using STM32CubeMX and IAR as well as for TI products using Code Composer Studio.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="TbotsModal" tabindex="-1" role="dialog" aria-labelledby="TbotsTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="TbotsTitle">UBC Thunderbots</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h2>About</h2>
+					<p>UBC Thunderbots is a student design team that creates
+						autonomous soccer-playing robots.The goal of the RoboCup
+						organization is use the complex and publicly appealing platform
+						of robotic soccer to promote research and advancement in the
+						field of robotics and artificial intelligence (AI).</p>
+					<h2>Electrical Co-Lead</h2>
+					<h3>Projects</h3>
+					<h4>PID Controller</h4>
+					<p>
+						Lead 2 students to create a PID controller for our
+						robots. We created a model of the robot and then
+						created a model in Simulink to simulate the robot in
+						Matlab. We tuned our PID controller and then
+						integrated it into our artificial intelligence in C++.
+					</p>
+					<h4>Firmware Development</h4>
+					<p>
+						Helped development for a variety of sensors and
+						integrated it into our real time systems. Created
+						abstraction levels for our artificial intelligence to
+						give easy interfaces between the software and
+						firmware.
+					</p>
+					<h4>Hardware Design and Improvement</h4>
+					<p>
+						I help improve our current system and develop new schematics for various motors, sensors, and microcontrollers
+						and then created a PCB in Altium for the robots. Our current system has 3 boards which are used for
+						sensors, radio communication and controlling the robots, and our high voltage board which we use for
+						kicking and chipping the ball.
+					</p>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>

@@ -1,51 +1,97 @@
-.jumbotron {
-	background-image: url("Images/MontrealGithub.jpg");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-color: powderblue;
-	color: black;
-	height: 600px;
-	width: 100%;
+body {
+  font-family: 'Ubuntu', sans-serif;
+	padding-top: 30px;
 }
 
-.about {
-	max-width: 1050px;	
-}
-.skills {
-	padding = 5px;
+p{
+  color:#525252;
 }
 
-.experience
+.img-thumbnail
 {
-	text-align:left;
+	border-width: 0px;
+	/*padding-left: 15%;*/
 }
 
-.fab {
-	color: #659EC7;
-	font-size: 55px;
-	padding: 20px;
-	width: 100px;
-	text-align: center;
-	margin-left: 30px;
-	margin-right: 30px;
-	padding-top: 30px;
+
+img:hover
+{
+	opacity: 0.5;
+	cursor: pointer;
+	backdrop-filter: ;
 }
 
-.fab:hover {
-	color: #fed035;
+.experiencebackground
+{
+	background: #e9ecef;
 }
 
-.fas {
-	color: #659EC7;
-	font-size: 55px;
-	padding: 20px;
-	width: 100px;
-	text-align: center;
-	margin-left: 30px;
-	margin-right: 30px;
-	padding-top: 30px;
+.whitebackgroundben
+{
+	background: #e9ecef;
 }
 
-.fas:hover {
-	color: #fed035;
+.whitebackgroundben .img-thumbnail
+{
+	background: #e9ecef;
+	height: 270px;
+	width: 80%;
+	overflow: hidden;
+}
+
+/*#tbotspic*/
+/*{*/
+	/*padding-bottom: 10%;*/
+/*}*/
+
+li
+{
+	font-size: 1.2rem;
+}
+
+.container_stretch
+{
+	width: 80%;
+}
+
+
+.navbar-dark .navbar-brand {
+	color: #0077B5;
+}
+
+#jumboheader
+{
+	background: url("https://images.unsplash.com/photo-1540720936278-94ab04d51f62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat;
+	padding: 2rem;
+	/*background-color: black;*/
+} 
+
+.jumbotron h1
+{
+	color: #0077B5;
+}
+
+#aboutedu
+{
+	width: 80%;
+}
+
+#programmingskills
+{
+	width: 80%;
+}
+
+.fa-linkedin
+{
+	color: #0077B5;
+}
+
+.fa-map-marker-alt
+{
+	color: #4285F4;
+}
+
+.UBCLogo
+{
+	border: 0;
 }
