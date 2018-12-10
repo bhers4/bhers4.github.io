@@ -7,6 +7,24 @@ p{
   color:#525252;
 }
 
+#navLinks a:hover
+{
+	color:#ffff00;
+}
+
+#navLinks a
+{
+	color:#00ccff;
+}
+
+.navbar-dark .navbar-brand {
+	color:  #00ccff;
+}
+
+.navbar-dark .navbar-brand:hover {
+	color: #ffff00;
+}
+
 .img-thumbnail
 {
 	border-width: 0px;
@@ -110,11 +128,6 @@ li
 .container_stretch_90
 {
 	width: 90%;
-}
-
-
-.navbar-dark .navbar-brand {
-	color: #0077B5;
 }
 
 #jumboheader
