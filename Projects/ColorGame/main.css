@@ -1,0 +1,127 @@
+body{
+    
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+#box h1
+{
+    display: inline;
+}
+
+#box span
+{
+    float: left;
+    margin: 5px;
+    color: white;
+}
+
+a:-webkit-any-link
+{
+    color: white;
+}
+
+#strip
+{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 25px;
+    display: none;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+
+}
+
+.container{
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.extreme
+{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+.selected{
+    background: steelblue;
+    color: white;
+}
+
+.headergame
+{
+    background-color: steelblue;
+    transition: all 0.3;
+}
+
+#rgbdisplay
+{
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-size: 4rem;
+}
+
+#top
+{
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h1
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+button
+{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    outline: none;
+}
+
+button:hover
+{
+    background: steelblue;
+    color: white;
+}
+
+#message
+{
+    display: inline-block;
+    width: 15%;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    font-weight: 700;
+    align-items: center;
+}
