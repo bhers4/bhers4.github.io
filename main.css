@@ -12,6 +12,17 @@ p{
 	color:#ffff00;
 }
 
+#resumebutton
+{
+	margin: 0 auto;
+	display: flex;
+}
+
+.fas fa-arrow-down
+{
+	padding-right: 20px;
+}
+
 #navLinks a
 {
 	color:#00ccff;
