@@ -92,7 +92,17 @@ p{
 	height: 300px;
 }
 
+#patatap
+{
+	height: 300px;
+}
+
 #comingsoon
+{
+	height: 300px;
+}
+
+#rgbgame
 {
 	height: 300px;
 }
@@ -211,6 +221,11 @@ li
 	}
 
 	#website
+	{
+		height: 260px;
+	}
+	
+	#patatap
 	{
 		height: 260px;
 	}
