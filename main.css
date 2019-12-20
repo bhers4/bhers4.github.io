@@ -1,83 +1,85 @@
 body {
-  font-family: 'Ubuntu', sans-serif;
+  	font-family: 'Ubuntu', sans-serif;
 	padding-top: 30px;
+	background: #343a40;
+	color: #dddddd;
 }
-
+a {
+	color: #dddddd;
+}
+a:hover {
+	color: #007bff;
+}
 p{
-  color:#525252;
+  color:#DDDDDD;
 }
-
 #navLinks a:hover
 {
 	color:#ffff00;
 }
-
-#resumebutton
-{
-	margin: 0 auto;
-	display: flex;
+.fa-envelope {
+	color: #DDDDDD;
 }
-
-.fas fa-arrow-down
-{
-	padding-right: 20px;
+.fa-github-square {
+	color: #DDDDDD;
 }
-
+.fa-linkedin {
+	color: #DDDDDD;
+}
+.fa-map-marker-alt {
+	color: #DDDDDD;
+}
 #navLinks a
 {
-	color:#00ccff;
+	color:#DDDDDD;
 }
-
 .navbar-dark .navbar-brand {
-	color:  #00ccff;
+	color:  #DDDDDD;
 }
-
 .navbar-dark .navbar-brand:hover {
 	color: #ffff00;
 }
-
+#jumboheader
+{
+	background: #343a40;
+	padding: 2rem;
+	margin-bottom: 1rem;
+} 
+.jumbotron h1
+{
+	color: #DDDDDD;
+}
+.jumbotron h4
+{
+	color: #DDDDDD;
+}
+#aboutedu
+{
+	width: 80%;
+	color: #DDDDDD;
+}
+.UBCLogo
+{
+	border: 0;
+}
+#mainnavbar
+{
+	margin-bottom: 1.5rem;
+}
 .img-thumbnail
 {
 	border-width: 0px;
 }
-
-
-.experiencebackground img:hover
+#programmingskills
 {
-	opacity: 0.5;
-	cursor: pointer;
-	backdrop-filter: ;
+	width: 75%;
+	color: #dddddd;
 }
-
 #Projects img:hover
 {
 	opacity: 0.5;
 	cursor: pointer;
 	backdrop-filter: ;
-}
-
-.experiencebackground
-{
-	background: #e9ecef;
-}
-
-.whitebackgroundben
-{
-	background: #e9ecef;
-}
-
-.whitebackgroundben .img-thumbnail
-{
-	background: #e9ecef;
-	height: 275px;
-	width: 80%;
-	overflow: hidden;
-}
-
-
-#Projects
-{
-	background: #e6f2ff;
 }
 
 #RNN
@@ -91,126 +93,21 @@ p{
 {
 	width: 2000px;
 }
-
-
-#Escaperoom
-{
-	height: 300px;
-}
-
-#website
-{
-	height: 300px;
-}
-
-#patatap
-{
-	height: 300px;
-}
-
-#comingsoon
-{
-	height: 300px;
-}
-
-#rgbgame
-{
-	height: 300px;
-}
-
-#ANN
-{
-	height: 275px;
-	width: 70%;
-	overflow: hidden;
-}
-
-#CNN
-{
-	height: 275px;
-	width: 100%;
-	overflow: hidden;
-}
-
 li
 {
 	font-size: 1.2rem;
 }
-
 .container_stretch
 {
 	width: 80%;
 }
-
 .container_stretch_90
 {
 	width: 90%;
 }
 
-#jumboheader
-{
-	background: url("https://images.unsplash.com/photo-1540720936278-94ab04d51f62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat;
-	padding: 2rem;
-	/*background-color: black;*/
-} 
-
-.jumbotron h1
-{
-	color: #0077B5;
-}
-
-#aboutedu
-{
-	width: 80%;
-}
-
-#programmingskills
-{
-	width: 80%;
-}
-
-.fa-linkedin
-{
-	color: #0077B5;
-}
-
-.fa-map-marker-alt
-{
-	color: #4285F4;
-}
-
-.UBCLogo
-{
-	border: 0;
-}
-
-#mainnavbar
-{
-	margin-bottom: 1.5rem;
-}
-
-
-@media (max-width: 1600px) {
-	.whitebackgroundben .img-thumbnail
-	{
-		background: #e9ecef;
-		height: 200px;
-		width: 80%;
-		overflow: hidden;
-	}
-
-	#Projects .img-thumbnail
-	{
-		background: #e9ecef;
-		height: 200px;
-		width: 80%;
-		overflow: hidden;
-	}
-
-}
-
 @media (max-width: 1300px) {
-	.whitebackgroundben .img-thumbnail
+	.img-thumbnail
 	{
 		background: #e9ecef;
 		height: 150px;
@@ -218,52 +115,22 @@ li
 		overflow: hidden;
 	}
 
-	#Projects .img-thumbnail
-	{
-		background: #e9ecef;
-		height: 150px;
-		width: 80%;
-		overflow: hidden;
-	}
-
-	#Escaperoom
-	{
-		height: 260px;
-	}
-
-	#website
-	{
-		height: 260px;
-	}
-	
-	#patatap
-	{
-		height: 260px;
-	}
 }
 
 @media (max-width: 997px) {
 
-	#UBCLogo .img-thumbnail
+	.img-thumbnail
 	{
-		height: 200px;
+		height: 100px;
 	}
 }
 
 @media (max-width: 767px) {
 
-	.whitebackgroundben .img-thumbnail
+	.img-thumbnail
 	{
 		background: #e9ecef;
-		height: 150px;
-		width: 55%;
-		overflow: hidden;
-	}
-
-	#Projects .img-thumbnail
-	{
-		background: #e9ecef;
-		height: 150px;
+		height: 100px;
 		width: 55%;
 		overflow: hidden;
 	}
@@ -271,15 +138,7 @@ li
 
 @media (max-width: 595px) {
 
-	.whitebackgroundben .img-thumbnail
-	{
-		background: #e9ecef;
-		height: 150px;
-		width: 80%;
-		overflow: hidden;
-	}
-
-	#Projects .img-thumbnail
+	.img-thumbnail
 	{
 		background: #e9ecef;
 		height: 150px;
