@@ -1,534 +1,295 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<title>Ben Hers</title>
-
-	<!-- Include Bootstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-	<!--JQuery-->
-	<script
-			src="https://code.jquery.com/jquery-3.3.1.min.js"
-			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			crossorigin="anonymous"></script>
-
-	<!--PopperJS-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-	<!--BootstrapJS-->
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-	<!-- Include Javascript File -->
-	<script src="functions.js"></script>
-
-	<!-- Include FontAwesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-	<!-- Include CSS file -->
-	<link rel="stylesheet" type="text/css" href="main.css">
-		
-	<!-- Include Skillbar CSS file -->
-	<link rel="stylesheet" type="text/css" href="skillbar.css">
-
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="80">
-
-	<!--NavBar-->
+    <head>
+        <title>Ben Hers</title>
+        <!-- Include stuff here -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+                integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+                crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!-- Include FontAwesome -->
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <!-- Include CSS file -->
+	    <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="80">
+        <!--NavBar-->
 	<nav id="mainnavbar" class="navbar  fixed-top navbar-dark bg-dark navbar-expand-md">
-		<div class="container-fluid container_stretch navLinksall">
-
-			<div class="brandheader">
-			<a href="#jumboheader" class="navbar-brand">Ben Hers</a>
-			<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			</div>
-
-
-			<div class="collapse navbar-collapse justify-content-end" id="navLinks">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="nav-item mx-2">
-						<a href="#aboutedu">About</a>
-					</li>
-					<li class="nav-item mx-2">
-						<a href="#Experience">Experience</a>
-					</li>
-					<li class="nav-item mx-2">
-						<a href="#Projects">Projects</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<!-- Header -->
+            <div class="container-fluid container_stretch navLinksall">
+    
+                <div class="brandheader">
+                <a href="#jumboheader" class="navbar-brand">Ben Hers</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+    
+    
+                <div class="collapse navbar-collapse justify-content-end" id="navLinks">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item mx-2">
+                            <a href="#aboutedu">About</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="#Experience">Experience</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="#Projects">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    <!-- Header -->
 	<div id = "jumboheader" class="jumbotron">
-		<div class="container">
-			<div class="row justify-content-between">
-				<div class="col-md-6 col-sm-12">
-						<h1>Benjamin Hers</h1>
-						<h4><i class="fas fa-envelope"></i> <a href="mailto:bhers4@gmail.com" target="_blank">bhers4@gmail.com</a></h4>
-						<h4><i class="fas fa-map-marker-alt"></i> Vancouver, BC</h4>
-				</div>
-				<div class="col-md-6 col-sm-12">
-						<h1>Find Me</h1>
-						<h4><i class="fab fa-github-square"></i> <a href="https://github.com/bhers4">bhers4</a></h4>
-						<h4><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/benjamin-hers/">Benjamin Hers</a></h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- About and Education Side by Side -->
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 col-sm-12">
+                        <h1>Ben Hers</h1>
+                        <h4><i class="fas fa-envelope"></i> <a href="mailto:bhers4@gmail.com" target="_blank">bhers4@gmail.com</a></h4>
+                        <h4><i class="fas fa-map-marker-alt"></i> Vancouver, BC</h4>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                        <h1>Find Me</h1>
+                        <h4><i class="fab fa-github-square"></i> <a href="https://github.com/bhers4">bhers4</a></h4>
+                        <h4><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/benjamin-hers/">Benjamin Hers</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About and Education Side by Side -->
 	<div id="aboutedu" class="container-fluid pt-2">
-		<div>
-			<div class="row">
-				<div class="col-lg-6 col-sm-12">
-					<!-- About -->
-					<h1>About</h1>
-					<p class="lead">
-						My areas of interest are Robotics, Machine Learning, and Software Development.
-						I am passionate about learning new technologies and building projects from robots to software tools.
-						Looking for an internship for 4 months starting May 2019.
-					</p>
-				</div>
-				<div class="col-lg-6 col-sm-12">
-					<!-- About -->
-					<h2>Education</h2>
-					<div class="row">
-						<div class="col-lg-3 col-md-6 col-sm-12">
-							<div id="UBCLogo">
-								<!-- UBC Image -->
-								<img src="http://www.volleyballbc.org/wp-content/uploads/2018/08/ubc-logo-png-transparent.png" class="img-thumbnail">
-							</div>
-						</div>
-
-						<div class="col-lg-9 col-md-6 col-sm-12">
-							<h3>University of British Columbia</h3>
-							<h4>Electrical Engineering</h4>
-							<h4>Graduation: April 2020</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<a href="ResumeLight(general)4.pdf"><button type="button" id="resumebutton" class="justify-content-center align-items-center btn btn-primary"><i class="fas fa-arrow-down"></i>  Resume</button></a>
-		</div>
-	</div>
-
-
-
-
-	<!-- Programming Languages and Skillbars -->
-	<div id = "programmingskills" class="container-fluid mb-2">
-		<div class="row">
-			<div id="skills" class="col-lg-4 col-md-12">
-			<h2>Programming Proficiency</h2>
-
-			<!-- TO Have more control put every skill into the bootstrap grid -->
-			<div class="skillbar clearfix" data-percent="100%">
-				<!-- <div class="skillbar-title" style="background: #d35400;"><span>Python</span></div> -->
-				<div class="skillbar-title" style="background: #e67e22;"><span>Python</span></div>
-				<div class="skillbar-bar" style="background: #e67e22;"></div>
-				<div class="skill-bar-percent">100%</div>
-			</div> <!-- End Skill Bar -->
-
-			<div class="skillbar clearfix " data-percent="90%">
-			<div class="skillbar-title" style="background: #2980b9;"><span>C</span></div>
-			<div class="skillbar-bar" style="background: #3498db;"></div>
-			<div class="skill-bar-percent">80%</div>
-			</div> <!-- End Skill Bar -->
-
-			<div class="skillbar clearfix " data-percent="80%">
-			<div class="skillbar-title" style="background: #2c3e50;"><span>C++</span></div>
-			<div class="skillbar-bar" style="background: #2c3e50;"></div>
-			<div class="skill-bar-percent">75%</div>
-			</div> <!-- End Skill Bar -->
-
-			<div class="skillbar clearfix " data-percent="70%">
-				<div class="skillbar-title" style="background: #333333;"><span>Matlab</span></div>
-				<div class="skillbar-bar" style="background: #525252;"></div>
-				<div class="skill-bar-percent">60%</div>
-			</div> <!-- End Skill Bar -->
-
-			<div class="skillbar clearfix " data-percent="60%">
-				<div class="skillbar-title" style="background: #124e8c;"><span>HTML/CSS</span></div>
-				<div class="skillbar-bar" style="background: #4288d0;"></div>
-				<div class="skill-bar-percent">50%</div>
-			</div> <!-- End Skill Bar -->
-
-			<div class="skillbar clearfix " data-percent="50%">
-				<div class="skillbar-title" style="background: #27ae60;"><span>Javascript</span></div>
-				<div class="skillbar-bar" style="background: #2ecc71;"></div>
-				<div class="skill-bar-percent">40%</div>
-			</div> <!-- End Skill Bar -->
-
-			<div class="skillbar clearfix " data-percent="40%">
-				<div class="skillbar-title" style="background: #46465e;"><span>SQL</span></div>
-				<div class="skillbar-bar" style="background: #5a68a5;"></div>
-				<div class="skill-bar-percent">30%</div>
-			</div> <!-- End Skill Bar -->
-			</div>
-
-			<div class="col-lg-4 col-md-6">
-				<h2>Software Frameworks</h2>
-				<ul>
-					<li>NodeJS</li>
-					<li>MongoDB</li>
-					<li>Linux</li>
-					<li>Bootstrap</li>
-					<li>Unreal Engine</li>
-				</ul>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<h2>Machine Learning Frameworks</h2>
-				<ul>
-					<li>Tensorflow</li>
-					<li>PyTorch</li>
-					<li>OpenCV</li>
-					<li>OpenAI</li>
-					<li>Scikit-Learn</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<!--Experience-->
-	<div class="experiencebackground pt-4">
-		<div id = "Experience" class="container-fluid container_stretch text-center">
-			<h1 class="display-3">Experience</h1>
-			<div class="whitebackgroundben">
-				<div class="row justify-content-center mb-4">
-
-					<div class="col-lg-4 col-md-6 Cadex mx-5">
-							<div class="row justify-content-center">
-								<div class="col-md-10">
-								<a class="modal-text" data-toggle="modal" data-target="#CadexModal"><img class="img-thumbnail center-block" src="imgs/cadex.jpeg" alt=""></a>
-								</div>
-							</div>
-							<h1>Cadex Electronics Inc.</h1>
-							<h4>Research Engineer Intern</h4>
-						</div>
-
-						<div class="col-lg-4 col-md-6 Tbots mx-5">
-							<a class="modal-text" data-toggle="modal" data-target="#TbotsModal"><img id = "tbotspic" class="img-thumbnail center-block" src="imgs/tbots.jpg" alt=""></a>
-							<h1>UBC Thunderbots</h1>
-							<h4>Electrical Co-Lead</h4>
-						</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--Projects Section-->
-	<div id = "Projects" >
-		<div class="container-fluid container_stretch_90 text-center pt-4">
-			<h1 class="display-3">Projects</h1>
-			<div class="row justify-content-between mb-4">
-				<!--ANN	-->
-				<div class="col-lg-4 col-md-6">
-					<a class="modal-text" data-toggle="modal" data-target="#ANNModal"><img id = "ANN" class="img-thumbnail center-block" src="imgs/ANN.png" alt=""></a>
-					<h2>Artificial Neural Network</h2>
-					<h4>Detects if customer will leave a bank given current financial information</h4>
-				</div>
-				<!--CNN-->
-				<div class="col-lg-4 col-md-6">
-					<a class="modal-text" data-toggle="modal" data-target="#CNNModal"><img id = "CNN" class="img-thumbnail center-block" src="imgs/CNN_Summary_Img1.png" alt=""></a>
-					<h2>Convolutional Neural Network</h2>
-					<h4>Discriminates between animals training on 8000 images and testing on 2000</h4>
-				</div>
-				<!--RNN-->
-				<div class="col-lg-4 col-md-6">
-					<a class="modal-text" data-toggle="modal" data-target="#RNNModal"><img id = "RNN" class="img-thumbnail center-block" src="imgs/RNN_Predicted_Stock_Price.png" alt=""></a>
-					<h2>Recurrent Neural Network</h2>
-					<h4>Using stock price from previous 3 months determines tomorrow's opening stock price</h4>
-				</div>
-
-				<!-- C++ Escape Room-->
-				<div class="col-lg-4 col-md-6">
-					<a class="modal-text" data-toggle="modal" data-target="#EscapeModal"><img id = "Escaperoom" class="img-thumbnail center-block" src="imgs/UnrealEngineGame.PNG" alt=""></a>
-					<h2>C++ Escape Room Game using Unreal Engine</h2>
-					<h4>Have to explore a 2 storey building to trigger a secret pad to open the door</h4>
-				</div>
-				<!--This website-->
-				<div class="col-lg-4 col-md-6">
-					<a class="modal-text" data-toggle="modal" data-target="#WebsiteModal"><img id = "website" class="img-thumbnail center-block" src="imgs/htmlcssjs.png" alt=""></a>
-					<h2>This Website</h2>
-					<h4>Used HTML/CSS/Bootstrap and Javascript to create this website</h4>
-				</div>
-				<!--RGB Game-->
-				<div class="col-lg-4 col-md-6">
-					<a href="Projects/ColorGame/index.html"><img id= "rgbgame" class="img-thumbnail center-block"  src="imgs/ColorGame.PNG" alt=""></a>
-					<h3>Color Guessing Game Project</h3>
-					<p>Using HTML/CSS/JS</p>
-				</div>
-
-				<!--To-Do List Project-->
-				<div class="col-lg-4 col-md-6">
-					<a href="Projects/TodolistProject/index.html"><img id= "todolist" class="img-thumbnail center-block"  src="imgs/todolist.PNG" alt=""></a>
-					<h3>To-Do List</h3>
-					<p>Using HTML/CSS/Jquery</p>
-				</div>
-				
-				<!--Patatap Clone-->
-				<div class="col-lg-4 col-md-6">
-					<a href="Projects/Patatap Clone/index.html"><img id= "patatap" class="img-thumbnail center-block"  src="imgs/patatap.PNG" alt=""></a>
-					<h3>Patatap Clone</h3>
-					<p>Using Paper.js and Howler.js created a simplified clone of Patatap to learn about audio and animations in JS</p>
-				</div>
-
-				
-				<!--Coming Soon-->
-				<div class="col-lg-4 col-md-6">
-					<img id= "comingsoon" class="img-thumbnail center-block"  src="imgs/coming+soon.jpg" alt="">
-					<h3>Coming Soon</h3>
-				</div>
-				
-				
-			</div>
-
-
-
-		</div>
-	</div>
-
-
-
-
-
-	<!-- Cadex Modal -->
-	<div class="modal fade" id="CadexModal" tabindex="-1" role="dialog" aria-labelledby="CadexTitle" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="CadexTitle">Cadex Electronics Inc.</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<h4>Research Engineer Intern</h4>
-					<p>
-						As a Research Engineer Intern, my job was to gather data and implement various machine learning
-						algorithms which were implemented in our products. I developed different classification and regression
-						algorithms using frameworks such as Tensorflow and Sci-kit Learn which helped the company determine the
-						state of health of Li-ion batteries. This involved lots of data analysis and I sped up the process by
-						developing software tools using Python to automate the process.
-						I automated the data gathering process on up to 20 machines simultaneously by using multithreading and a publish/subscribe
-						framework and developed a GUI that other Engineers could use to speed
-						up the process of gathering data. The data was stored in a database which I used Django to interface with and ran the
-						webserver with Apache using a Linux VM. I also developed prototype firmware for DSP applications
-						using an ARM Cortex M7 using STM32CubeMX and IAR as well as for TI products using Code Composer Studio.
-					</p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Tbots Modal -->
-	<div class="modal fade" id="TbotsModal" tabindex="-1" role="dialog" aria-labelledby="TbotsTitle" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="TbotsTitle">UBC Thunderbots</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<h2>About</h2>
-					<p>UBC Thunderbots is a student design team that creates
-						autonomous soccer-playing robots.The goal of the RoboCup
-						organization is use the complex and publicly appealing platform
-						of robotic soccer to promote research and advancement in the
-						field of robotics and artificial intelligence (AI).</p>
-					<h2>Electrical Co-Lead</h2>
-					<h3>Projects</h3>
-					<h4>PID Controller</h4>
-					<p>
-						Lead 2 students to create a PID controller for our
-						robots. We created a model of the robot and then
-						created a model in Simulink to simulate the robot in
-						Matlab. We tuned our PID controller and then
-						integrated it into our artificial intelligence in C++.
-					</p>
-					<h4>Firmware Development</h4>
-					<p>
-						Helped development for a variety of sensors and
-						integrated it into our real time systems. Created
-						abstraction levels for our artificial intelligence to
-						give easy interfaces between the software and
-						firmware.
-					</p>
-					<h4>Hardware Design and Improvement</h4>
-					<p>
-						I help improve our current system and develop new schematics for various motors, sensors, and microcontrollers
-						and then created a PCB in Altium for the robots. Our current system has 3 boards which are used for
-						sensors, radio communication and controlling the robots, and our high voltage board which we use for
-						kicking and chipping the ball.
-					</p>
-
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!--ANN Modal-->
-	<div class="modal fade" id="ANNModal" tabindex="-1" role="dialog" aria-labelledby="ANNTitle" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="ANNTitle">Artifical Neural Network</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<h2>Customer Predictions</h2>
-					<p>
-						Given a dataset from a hypothetical bank with customer financial
-						information and whether or not they left the bank, I trained an
-						ANN to be able to predict whether or not the customer
-						will leave the bank using Python and Tensorflow with an accuracy of 85%.
-					</p>
-					<h4>Link to Code</h4>
-					<p>
-						All code is in my Github account and the data is in the csv in the folder.
-						The Artifical Neural Network code is <span><a href="https://github.com/bhers4/Deep_Learning/tree/master/Artifical_Neural_Networks">here</a></span>
-					</p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--CNN Modal-->
-	<div class="modal fade" id="CNNModal" tabindex="-1" role="dialog" aria-labelledby="CNNTitle" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="CNNTitle">Convolutional Neural Network</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<h2>Animal Classification</h2>
-					<p>
-						Using a simple set of images(5000 dogs and 5000 cats), I trained a
-						Convolutional Neural Network to be able to predict if the animal in the image
-						was a cat or a dog using Python and Tensorflow with an accuracy of 84%.
-					</p>
-					<h4>Link to Code</h4>
-					<p>
-						All code is in my Github account and the data is in the images folder.
-						The Convolutional Neural Network code is <span><a href="https://github.com/bhers4/Deep_Learning/tree/master/Convolutional_Neural_Network">here</a></span>
-					</p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--RNN Modal-->
-	<div class="modal fade" id="RNNModal" tabindex="-1" role="dialog" aria-labelledby="RNNTitle" aria-hidden="true">
-		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="RNNTitle">Recurrent Neural Network</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body text-center">
-					<h2>Opening Stock Price Prediction</h2>
-					<p>
-						Using a dataset of Google's stock price from 2011-2017, trained a recurrent neural network on the opening
-						to stock price to predict the following day's stock price using Python and Tensorflow.
-					</p>
-					<img class="center-block" src="imgs/RNN_Predicted_Stock_Price.png" alt="">
-					<h4>Link to Code</h4>
-					<p>
-						All code is in my Github account and the data is in the images folder.
-						The Convolutional Neural Network code is <span><a href="https://github.com/bhers4/Deep_Learning/tree/master/Recurrent_Neural_Networks/RNN">here</a></span>
-					</p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!--C++ Escape Room Modal-->
-	<div class="modal fade" id="EscapeModal" tabindex="-1" role="dialog" aria-labelledby="C++Title" aria-hidden="true">
-		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="C++Title">Unreal Engine C++ Game</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body text-center">
-					<h2>Escape Room Game</h2>
-					<p>
-						Using the Unreal Engine, created a escape room style game and developed a multi-storey building
-						to escape from. Used C++ to code the mechanisms in the game such as triggering the opening of a door.
-						Used Unreal Engine 4.19.0.
-					</p>
-					<h4>Link to Code</h4>
-					<p>
-						All code is in my Github account.
-						The C++ game code is <span><a href="https://github.com/bhers4/Unreal/tree/master/BuildingEscape/BuildingEscapeProj">here</a></span>
-					</p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--Website Modal-->
-	<div class="modal fade" id="WebsiteModal" tabindex="-1" role="dialog" aria-labelledby="WebsiteTitle" aria-hidden="true">
-		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="WebsiteTitle">Portfolio Website</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body text-center">
-					<h2>Web Dev</h2>
-					<p>
-						Using HTML/CSS and Bootstrap 4 created the website and added some animations in using Javascript.
-					</p>
-					<h4>Link to Code</h4>
-					<p>
-						All code is in my Github account.
-						The Website source files are <span><a href="https://github.com/bhers4/bhers4.github.io">here</a></span>
-					</p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-</body>
+        <div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <!-- About -->
+                    <h1>About</h1>
+                    <p class="lead">
+                        My areas of interest are Robotics, Machine Learning, and Software Development.
+                        I am passionate about learning new technologies and building projects from robots to software tools.
+                        Looking for an internship for 4 months starting May 2019.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <!-- About -->
+                    <h2>Education</h2>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div id="UBCLogo">
+                                <!-- UBC Image -->
+                                <img src="http://www.volleyballbc.org/wp-content/uploads/2018/08/ubc-logo-png-transparent.png" class="img-thumbnail">
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-6 col-sm-12">
+                            <h3>University of British Columbia</h3>
+                            <h4>Electrical Engineering</h4>
+                            <h4>Graduation: May 2020</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Programming Skills-->
+    <div id="programmingskills" class="container-fluid mb-2">
+        <div class="row">
+            <div id="skills" class="col-lg-4 col-md-12">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>C</li>
+                    <li>Matlab</li>
+                    <li>Javascript</li>
+                    <li>HTML/CSS</li>
+                </ul>
+                <p>*In order of proficiency</p>
+            </div>
+            <div id="tools" class="col-lg-4 col-md-12">
+                    <h2>Tools and Frameworks</h2>
+                    <ul>
+                        <li>Linux</li>
+                        <li>Git</li>
+                        <li>Perforce</li>
+                        <li>SQL</li>
+                        <li>NodeJS</li>
+                        <li>Android Studio</li>
+                    </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                    <h2>Machine Learning</h2>
+                    <ul>
+                        <li>Tensorflow</li>
+                        <li>PyTorch</li>
+                        <li>OpenCV</li>
+                        <li>QT</li>
+                        <li>Scikit-Learn</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <div class="experiencebackground pt-4">
+        <div id ="Experience" class="container-fluid container_stretch">
+            <h1>Work Experience</h1>
+            <!-- Arista -->
+            <div class="row justify-content-left mb-4">
+                <div class="col-lg-4 col-md-6 Cadex mx-5">
+                    <h1>Arista Networks</h1>
+                    <h4>Software Engineer Intern</h4>
+                </div>
+                <div class="col-lg-4 col-md-6 Cadex mx-5">
+                    <h3>May 2019-August 2018</h3>
+                    <h4>Python, C++</h4>
+                </div>
+            </div>
+            <div class="row justify-content-left mb-4">
+                <div style="padding: 0px 5px;margin:0px 24px;" class="col-lg-2 col-md-4 Cadex mx-5">
+                    <a href="https://www.arista.com/en/"><img src="https://www.arista.com/assets/images/logo/arista_logo_blue_bg_500x280.jpg"></a> 
+                </div>
+                <div class="col-lg-7 col-md-6 Cadex mx-5">
+                    <ul>
+                        <li>Improved performance at scale by 10% for IP Tunneling as well as wrote tests to ensure proper functionality and check edge cases in unit tests</li>
+                        <li>Extended functionality that controlled packet access to ports and to select routes for redistribution into routing domains into both the CLI and EosSdk to allow users to configure their networks manually or through agents</li>
+                        <li>Worked on software releases and working on bug-fixes for product tests</li>
+                    </ul>      
+                </div>
+            </div>
+            <!-- Cadex Electronics -->
+            <div class="row justify-content-left mb-4">
+                <div class="col-lg-4 col-md-6 Cadex mx-5">
+                    <h1>Cadex Electronics Inc.</h1>
+                    <h4>Research Engineer Intern</h4>
+                </div>
+                <div class="col-lg-4 col-md-6 Cadex mx-5">
+                    <h3>January 2018-December 2018</h3>
+                    <h4>Python, C</h4>
+                </div>
+            </div>
+            <div class="row justify-content-left mb-4">
+                <div style="padding: 0px 5px;margin:0px 24px;" class="col-lg-2 col-md-4 Cadex mx-5">
+                    <a href="https://www.cadex.com/en"><img src="imgs/cadex.jpeg"></a> 
+                </div>
+                <div class="col-lg-8 col-md-8 Cadex mx-5">
+                    <ul>
+                        <li>Developed and implemented machine learning algorithms using Python and interfaced with database using SQL and libraries such as Django</li>
+                        <li>Developed firmware for DSP applications using an ARM Cortex M7(STM32). Also worked on developing code and interfacing with peripherals such as high frequency pwm generation, timers and ADC's</li>
+                        <li>Created a GUI using Python and PyQt5 which integrated multi-threading for the control of industrial test equipment and made an easy to use UI for others to use</li>
+                        <li>Developed and assessed different machine learning algorithms to determine a battery's state of health within 5% and integrated it into the product's firmware</li>
+                    </ul>    
+                </div>
+            </div>
+            <!-- Thunderbots -->
+            <div class="row justify-content-left mb-4">
+                <div class="col-lg-4 col-md-6 Cadex mx-5">
+                        <h1><a href="https://www.ubcthunderbots.ca/" target="_blank">UBC Thunderbots</a></h1>
+                        <h4>Electrical Co-lead</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 Cadex mx-5">
+                        <h3>September 2016-Present</h3>
+                        <h4>Python, C, C++, Altium</h4>
+                    </div>
+                </div>
+                <div class="row justify-content-left mb-4">
+                    <div style="padding: 0px 5px;margin:0px 24px;" class="col-lg-3 col-md-12 Cadex mx-5">
+                        <a href="https://www.cadex.com/en"><img src="https://www.zaber.com/images/news/sponsorships/ubc_thunderbots/thunderbots_2.jpg"></a> 
+                    </div>
+                    <div class="col-lg-7 col-md-12 Cadex mx-5">
+                        <h3>About</h3>
+                        <p>UBC Thunderbots is an engineering student design team that designs and creates competitive robots to compete in the Small Size League of the international Robocup Federation. The goal of the Robocup organization is to use the platform
+                        of robotic soccer to promote research and advancement in the field of robotics and artifical intelligence.
+                        </p>
+                        <h4>Projects</h4>
+                        <ul>
+                            <li>Firmware Development in Linux on Arm Cortex M4/M7 MCU's</li>
+                            <li>Implemented control systems for motor control and positioning</li>
+                            <li>Developed schematics and PCB layout using Altium for systems with componenets such as radio's, FPGA's, MCU's, and motor drivers</li>
+                        </ul>
+                        <h4>Check out our github <a style="color:007bff;" href="https://github.com/UBC-Thunderbots"><i class="fab fa-github-square"></i></a> for current projects and our codebase</h4>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="Projects" class="container-fluid container_stretch">
+        <h1 style="text-align: center;">Projects</h1>
+        <h2>Deep Learning based Image Processing for Accelerated Cancer Drug Discovery</h2>
+        <div class="row justify-content-left mb-4">
+            <div style="padding: 0px 5px;margin:0px 24px;" class="col-lg-3 col-md-12 mx-5">
+                <img src="https://electron.med.ubc.ca/files/2019/02/CRYOEM_DD.jpg">
+            </div>
+            <div class="col-lg-7 col-md-12 mx-5">
+                <h4>UBC Capstone Project</h4>
+                <p>Python, PyTorch, CNN, Segmentation</p>
+                <p>Djavad Mowafaghian Centre for Brain Health</p>
+                <ul>
+                    <li>Processed electron microscopy images at cryogenic temperatures to help build a pipeline that can develop 3d models of proteins at atomic resolution</li>
+                    <li>Created a protein particle picking pipeline leveraging open source tools and the latest research in the field to determine the best network architectures in PyTorch</li>
+                    <li>Investigated the use of both object detection and image segmentation to create one combined tool that better handled contaminated samples</li>
+                </ul>    
+            </div>
+        </div>
+        <br>
+        <!--Tensorflow projects-->
+        <h2>Deep Learning Using TensorFlow & PyTorch</h2>
+        <div class="row justify-content-left mb-4">
+            <div style="padding: 0px 5px;margin:0px 24px" class="col-lg-3 col-md-12 mx-5">
+                <img style="background-color: white;" src="https://icdn6.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-791x388.jpg">
+            </div>
+            <div class="col-lg-7 col-md-12 mx-5">
+                <h4>Customer Retention Predictions</h4>
+                <p>Python, ANN, TensorFlow</p>
+                <ul>
+                    <li>Using open source database with customers information on credit score, age, and other information predicted whether or not a customer would leave or stay with the bank</li>
+                    <li>Using information from 10,000 customers, was able to predict with an accuracy of 85%</li>
+                    <li>Link to code in github is here <a href="https://github.com/bhers4/Deep_Learning/tree/master/Artifical_Neural_Networks"><i class="fab fa-github-square"></i></a></li>
+                </ul>    
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-left mb-4">
+            <div style="padding: 0px 5px;margin:0px 24px" class="col-lg-3 col-md-12 mx-5">
+                <img style="background-color: white;" src="imgs/CNN_Summary_Img1.png">
+            </div>
+            <div class="col-lg-7 col-md-12 mx-5">
+                <h4>Object Classification using MNIST</h4>
+                <p>Python, CNN, PyTorch</p>
+                <ul>
+                    <li>Using the MNIST database, I setup a convolutional neural network to classify different objects</li>
+                    <li>Link to code in github is here <a href="https://github.com/bhers4/Projects/blob/master/machine_learning/PyTorchTutorials/basic_classifier/classifier.py"><i class="fab fa-github-square"></i></a></li>
+                </ul>    
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-left mb-4">
+            <div style="padding: 0px 5px;margin:0px 24px" class="col-lg-3 col-md-12 mx-5">
+                <img style="background-color: white;" src="imgs/RNN_Predicted_Stock_Price.png">
+            </div>
+            <div class="col-lg-7 col-md-12 mx-5">
+                <h4>Stock Price Prediction Using RNN's</h4>
+                <p>Python, RNN, TensorFlow</p>
+                <ul>
+                    <li>Using the open source database of stock prices, I setup a recurrent neural network to look at opening stock price for the last 60 days(12 weeks) to predict the next days stock price</li>
+                    <li>Link to code in github is here <a href="https://github.com/bhers4/Deep_Learning/tree/master/Recurrent_Neural_Networks/RNN"><i class="fab fa-github-square"></i></a></li>
+                </ul>    
+            </div>
+        </div>
+        <br>
+        <!--Cloud Monitoring Project-->
+        <h2>Cloud Power Monitoring System</h2>
+        <div class="row justify-content-left mb-4">
+            <div style="padding: 0px 5px;margin:0px 24px;" class="col-lg-3 col-md-12 mx-5">
+                <img style="max-height: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/512px-Android_Studio_icon.svg.png">
+            </div>
+            <div class="col-lg-7 col-md-12 mx-5">
+                <h4>Wind Turbine Cloud Monitoring</h4>
+                <p>Java, Android Studio, Firebase, NodeMCU, STM32, UART</p>
+                <ul>
+                    <li>Created a wind turbine with 3 students which was controlled with a STM32F4</li>
+                    <li>Talked to Esp8266 over UART which then sent the latest power measurements to a Firebase cloud database</li>
+                    <li>Created an android app that got the latest values from the cloud and displayed them for live monitoring</li>
+                </ul>    
+            </div>
+        </div>
+    </div>
+    </body>
 </html>
