@@ -78,7 +78,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div id="UBCLogo">
                                 <!-- UBC Image -->
-                                <img src="http://www.volleyballbc.org/wp-content/uploads/2018/08/ubc-logo-png-transparent.png" class="img-thumbnail">
+                                <img style="background-color: white;" src="http://www.volleyballbc.org/wp-content/uploads/2018/08/ubc-logo-png-transparent.png">
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-6 col-sm-12">
@@ -94,7 +94,7 @@
     <!--Programming Skills-->
     <div id="programmingskills" class="container-fluid mb-2">
         <div class="row">
-            <div id="skills" class="col-lg-4 col-md-12">
+            <div id="skills" class="col-lg-4 col-md-6">
                 <h2>Languages</h2>
                 <ul>
                     <li>Python</li>
@@ -106,7 +106,7 @@
                 </ul>
                 <p>*In order of proficiency</p>
             </div>
-            <div id="tools" class="col-lg-4 col-md-12">
+            <div id="tools" class="col-lg-4 col-md-6">
                     <h2>Tools and Frameworks</h2>
                     <ul>
                         <li>Linux</li>
@@ -211,7 +211,8 @@
         </div>
     </div>
     <div id="Projects" class="container-fluid container_stretch">
-        <h1 style="text-align: center;">Projects</h1>
+		<h1 style="text-align: center;">Projects</h1>
+		<br>
         <h2>Deep Learning based Image Processing for Accelerated Cancer Drug Discovery</h2>
         <div class="row justify-content-left mb-4">
             <div style="padding: 0px 5px;margin:0px 24px;" class="col-lg-3 col-md-12 mx-5">
@@ -236,7 +237,7 @@
                 <img style="background-color: white;" src="https://icdn6.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-791x388.jpg">
             </div>
             <div class="col-lg-7 col-md-12 mx-5">
-                <h4>Customer Retention Predictions</h4>
+                <h2>Customer Retention Predictions</h2>
                 <p>Python, ANN, TensorFlow</p>
                 <ul>
                     <li>Using open source database with customers information on credit score, age, and other information predicted whether or not a customer would leave or stay with the bank</li>
@@ -251,7 +252,7 @@
                 <img style="background-color: white;" src="imgs/CNN_Summary_Img1.png">
             </div>
             <div class="col-lg-7 col-md-12 mx-5">
-                <h4>Object Classification using MNIST</h4>
+                <h2>Object Classification using MNIST</h2>
                 <p>Python, CNN, PyTorch</p>
                 <ul>
                     <li>Using the MNIST database, I setup a convolutional neural network to classify different objects</li>
@@ -265,7 +266,7 @@
                 <img style="background-color: white;" src="imgs/RNN_Predicted_Stock_Price.png">
             </div>
             <div class="col-lg-7 col-md-12 mx-5">
-                <h4>Stock Price Prediction Using RNN's</h4>
+                <h2>Stock Price Prediction Using RNN's</h2>
                 <p>Python, RNN, TensorFlow</p>
                 <ul>
                     <li>Using the open source database of stock prices, I setup a recurrent neural network to look at opening stock price for the last 60 days(12 weeks) to predict the next days stock price</li>
@@ -281,7 +282,7 @@
                 <img style="max-height: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/512px-Android_Studio_icon.svg.png">
             </div>
             <div class="col-lg-7 col-md-12 mx-5">
-                <h4>Wind Turbine Cloud Monitoring</h4>
+                <h2>Wind Turbine Cloud Monitoring</h2>
                 <p>Java, Android Studio, Firebase, NodeMCU, STM32, UART</p>
                 <ul>
                     <li>Created a wind turbine with 3 students which was controlled with a STM32F4</li>
@@ -289,7 +290,39 @@
                     <li>Created an android app that got the latest values from the cloud and displayed them for live monitoring</li>
                 </ul>    
             </div>
-        </div>
+		</div>
+		<!--Yelpcamp-->
+		<h2>Camping Website</h2>
+		<div class="row justify-content-left mb-4">
+			<div style="padding: 0px 5px;margin:0px 24px;" class="col-lg-3 col-md-12 mx-5">
+                <img style="" src="https://images.unsplash.com/photo-1476041800959-2f6bb412c8ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80%22">
+            </div>
+			<div class="col-lg-7 col-md-12 mx-5">
+				<h2>Website with full frontend/backend</h2>
+				<p>NodeJS, MongoDB, Mongoose, Express, HTML/CSS</p>
+				<ul>
+					<li>Created website for hypothetical campsite website with a full REST API</li>
+					<li>Using npm packages parsed incoming requests because all properties and values in the objects are untrusted and should be validated before trusting. </li>
+					<li>Link to code in github is here <a href="https://github.com/bhers4/WebDev/tree/master/Backend/YelpCamp"><i class="fab fa-github-square"></i></a></li>
+				</ul>    
+			</div>
+		</div>
+		<!--Unreal-->
+		<h2>Tiny Game using Unreal Engine - WIP</h2>
+		<div class="row justify-content-left mb-4">
+			<div style="padding: 0px 5px;margin:0px 24px;" class="col-lg-3 col-md-12 mx-5">
+                <img style="" src="imgs/UnrealEngineGame.PNG">
+            </div>
+			<div class="col-lg-7 col-md-12 mx-5">
+				<h2>Small Escape Room Game</h2>
+				<p>C++, Unreal Engine</p>
+				<ul>
+					<li>Created small game using unreal engine where you had to escape a building by triggering hidden switches</li>
+					<li>Implementing logic using C++</li>
+					<li>Link to code in github is here <a href="https://github.com/bhers4/Unreal/tree/master/BuildingEscape/BuildingEscapeProj"><i class="fab fa-github-square"></i></a></li>
+				</ul>    
+			</div>
+		</div>
     </div>
     </body>
 </html>
