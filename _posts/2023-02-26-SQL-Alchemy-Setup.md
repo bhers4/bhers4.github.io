@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to SQL Alchemy in Python"
-date:   2023-02-26 00:00:00 -0700
+date:   2023-02-26 12:00:00 -0000
 categories: databases
 tags: python databases sql development
 ---

@@ -2,12 +2,12 @@
 layout: post
 preview: "SQL Alchemy Basics in Python with Postgresql"
 title:  "SQL Alchemy Basics in Python with Postgresql"
-date:   2023-02-28 00:00:00 -0700
+date:   2023-02-28 12:00:00 -0700
 categories: 
     - "databases"
 tags: python databases sql development postgresql
 ---
-Building off my [Previous Blog Post](/databases/2023/02/25/SQL-Alchemy-Setup.html), we now have 
+Building off my [Previous Blog Post](/databases/2023/02/26/SQL-Alchemy-Setup.html), we now have 
 Postgresql installed and sql alchemy installed. In this blog post we will go over the basics of 
 inserting, deleting, and updating a database.
 ### Step 1: Create a Database
