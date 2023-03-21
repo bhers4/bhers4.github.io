@@ -3,6 +3,7 @@ layout: post
 preview: "CIFAR10 Classification with Deep Learning Models"
 title:  "CIFAR10 Classification with State-Of-The-Art Deep Learning Models"
 date:   2023-03-12 12:00:00 -0700
+hide: false
 categories: 
     - "deep_learning"
 tags: python deep_learning classification transformers cnns
