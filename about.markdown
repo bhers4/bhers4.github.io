@@ -7,19 +7,20 @@ permalink: /about/
 This is my blog where I document my dive into different topics, such as: machine learning, software engineering, edge AI, etc. My background is in Electrical Engineering and I have a masters degree in computer vision where I focused on medical imaging. I have a variety of experience developing deep learning models for pharmaceutical applications as well as for autonomous vehicle related applications.
 
 ### Work Experience
-<!-- <img style="float: right" width=100 src='/assets/p1_logo.png'>
+<img style="float: right" width=100 src='/assets/p1_logo.png'>
 <strong>Computer Vision Engineer</strong> (October 2021 - Present) \\
 <strong>Point One Navigation</strong>
-- Developed deep learning models for feature matching in autonomous vehicles
+- Developed deep learning models for learned feature matching in autonomous vehicles
 - Worked on developing SLAM systems and algorithms
 - Worked on sensor fusion with cameras, imus, and lidar
+- Worked on the development of tightly-coupled EKF systems for visual inertial odometry.
 - Developed data ingestion pipelines for variety of data
-- Worked on productions systems in C++ and implemented vision based code -->
+- Worked on productions systems in C++ and implemented vision based code
 
 <img style="float: right" width=100 src='/assets/ubc_logo.png'>
 <strong>Machine Learning Engineer</strong> (May 2020 - October 2021) \\
-<strong>UBC CryoEM Lab (now Gandeeva Therapeutics)</strong>
-- Developed deep learning models(pytorch) for cryo electron microscopy images based on architectures such as Resnet, UNet, and SqueezeNet for image classification, image segmentation, and object detection.
+<strong>UBC CryoEM Lab (now [Gandeeva Therapeutics](https://gandeeva.com/))</strong>
+- Developed deep learning models (pytorch) for cryo electron microscopy images based on architectures such as Resnet, UNet, and SqueezeNet for image classification, image segmentation, and object detection.
 - Developed a multi-head model to perform several tasks simultaneously and utilized the common base layers between tasks to improve the quality of the outputted classes and images.
 - Implemented an Apache Kafka based pipeline for high throughput inference on TB's of data every day utilising multi GPU servers.
 - Leveraged research published in Arxiv to improve methods for layer normalization, optimizer algorithms, and network architecture to produce more robust models that converged faster.
