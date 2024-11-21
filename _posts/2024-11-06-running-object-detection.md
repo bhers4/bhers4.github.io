@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Running Simple Object Detection using Ultralytics"
+title:  "Running Object Detection using Ultralytics"
 date:   2024-11-06 12:00:00 -0000
 categories: object-detection deep-learning
 tags: python object detection deep learning

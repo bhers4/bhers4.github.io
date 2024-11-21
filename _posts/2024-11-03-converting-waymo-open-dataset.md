@@ -150,7 +150,9 @@ def normalize_boxes(img: np.ndarray, boxes: List) -> List:
 Now you have the images as np arrays and the normalized box data for each image,
 so all that needs to get done is to write out the space-delimited box data into
 txt files and save the np arrays to the proper directories which you can do using
-packages such as PIL to save the images as png or jpeg files.
+packages such as PIL to save the images as png or jpeg files. The thing to remember
+is the coco format is **space delimited** not comma delimited and you start
+with the class id then normalized x, y, width, and finally height.
 
 ## Conclusion:
 This allowed me to train an object detection model using open-source packages
