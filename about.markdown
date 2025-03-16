@@ -4,18 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is my blog where I document my dive into different topics, such as: machine learning, software engineering, edge AI, etc. My background is in Electrical Engineering and I have a masters degree in computer vision where I focused on medical imaging. I have a variety of experience developing deep learning models for pharmaceutical applications as well as for autonomous vehicle related applications.
+This is my blog where I document my dive into different topics, such as: machine learning, software engineering, edge AI, etc. My background is in Electrical Engineering and I have a masters degree in electrical and computer engineering where I focused on medical imaging. I have a variety of experience developing deep learning models for pharmaceutical applications as well as for autonomous vehicle related applications.
 
 ### Work Experience
 <img style="float: right" width=100 src='/assets/p1_logo.png'>
 <strong>Computer Vision Engineer</strong> (October 2021 - Present) \\
 <strong>Point One Navigation</strong>
-- Developed deep learning models for learned feature matching in autonomous vehicles
-- Worked on developing SLAM systems and algorithms
-- Worked on sensor fusion with cameras, imus, and lidar
-- Worked on the development of tightly-coupled EKF systems for visual inertial odometry.
-- Developed data ingestion pipelines for variety of data
-- Worked on productions systems in C++ and implemented vision based code
+- Developed detector-free local feature matching deep learning models for SLAM-based applications.
+- Created a lidar-camera calibration system to all the use of lidar data as ground truth.
+- Architected data storage schemas for spatiotemporal image matching in Pytorch using a PostgreSQL/PostGIS database.
+- Enhanced and developed real-time C++ vision processing code for a production system, contributing to performance improvements and participated in code reviews.
+- Helped troubleshoot and maintain an automotive data collection system containing GNNS, IMU, camera, and lidar data hosted on AWS S3.
+- Developed tightly-coupled visual inertial systems in C++ for navigation applications.
 
 <img style="float: right" width=100 src='/assets/ubc_logo.png'>
 <strong>Machine Learning Engineer</strong> (May 2020 - October 2021) \\
@@ -43,16 +43,17 @@ This is my blog where I document my dive into different topics, such as: machine
 
 ### Education
 <img style="float: right" width=50 src='/assets/ubc_logo.png'>
-<strong>Masters of Applied Science</strong>(Sept 2021 - Sept 2023) \\
+<strong>Masters of Applied Science</strong> (Sept 2021 - May 2024) \\
 <strong>University of British Columbia</strong>
-- Researched deep neural networks for 3D Ultrasound Segmentation using both CNN based models and Transformers.
-- Worked on developing deep learning models for Skin Lesion classification using both convolutional and transformer based models.
-- Investigated using self supervised learning to improve networks and improve generalizability
+- Researched deep neural networks for 3D Ultrasound Segmentation using both CNN-based models and Transformers.
+- Worked on developing deep learning models for Skin Lesion classification using both convolutional and transformer-based models.
+- Investigated using self supervised learning to improve networks and improve generalizability.
 
 <img style="float: right" width=50 src='/assets/ubc_logo.png'>
-<strong>Bachelors in Electrical Engineering</strong> \\
+<strong>Bachelors in Electrical Engineering</strong> (Sept 2015 - May 2020) \\
 <strong>University of British Columbia</strong>
 
 ### Publications
+- <a href="https://www.sciencedirect.com/science/article/pii/S0301562924004733">SegFormer3D: Improving the Robustness of Deep Learning Model-Based Image Segmentation in Ultrasound Volumes of the Pediatric Hip</a>
 - FairDisCo: <a href="https://arxiv.org/pdf/2208.10013.pdf">Fairer AI in Dermatology via Disentanglement Contrastive Learning</a>
 
