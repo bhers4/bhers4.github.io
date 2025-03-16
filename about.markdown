@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is my blog where I document my dive into different topics, such as: machine learning, software engineering, edge AI, etc. My background is in Electrical Engineering and I have a masters degree in electrical and computer engineering where I focused on medical imaging. I have a variety of experience developing deep learning models for pharmaceutical applications as well as for autonomous vehicle related applications.
+This is my blog where I document my dive into different topics, such as: machine learning, software engineering, edge AI, etc. My background is in Electrical Engineering and I have a masters degree in Electrical and Computer Engineering where I focused on medical imaging. I have a variety of experience developing deep learning models for pharmaceutical applications as well as for autonomous vehicle related applications.
 
 ### Work Experience
 <img style="float: right" width=100 src='/assets/p1_logo.png'>
