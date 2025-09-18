@@ -8,7 +8,7 @@ This is my blog where I document my dive into different topics, such as: machine
 
 ### Work Experience
 <img style="float: right" width=100 src='/assets/p1_logo.png'>
-<strong>Computer Vision Engineer</strong> (October 2021 - Present) \\
+<strong>Machine Learning Engineer</strong> (October 2021 - Present) \\
 <strong>Point One Navigation</strong>
 - Developed detector-free local feature matching deep learning models for SLAM-based applications.
 - Created a lidar-camera calibration system to all the use of lidar data as ground truth.
@@ -16,6 +16,7 @@ This is my blog where I document my dive into different topics, such as: machine
 - Enhanced and developed real-time C++ vision processing code for a production system, contributing to performance improvements and participated in code reviews.
 - Helped troubleshoot and maintain an automotive data collection system containing GNNS, IMU, camera, and lidar data hosted on AWS S3.
 - Developed tightly-coupled visual inertial systems in C++ for navigation applications.
+- Trained an LSTM-based deep neural network on IMU data to improve the accuracy of Inertial Navigation Systems (INS) on mobile devices, specifically mitigating performance issues caused by low-quality GPS and IMU sensors.
 
 <img style="float: right" width=100 src='/assets/ubc_logo.png'>
 <strong>Machine Learning Engineer</strong> (May 2020 - October 2021) \\
