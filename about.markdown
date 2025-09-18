@@ -29,14 +29,14 @@ This is my blog where I document my dive into different topics, such as: machine
 
 <img style="float: right" width=100 src='/assets/arista_logo.jpeg'>
 <strong>Software Engineer Intern</strong> (May 2019 - August 2019) \\
-<strong>Arista Networks</strong> (python/c++)
+<strong>Arista Networks</strong>
 - Improved performance at scale by 10% for IP Tunneling as well as wrote tests to ensure proper functionality and check edge cases in unit tests.
 - Extended functionality that controlled packet access to ports and to select routes for redistribution into routing domains into both the CLI and EosSdk to allow users to configure their networks manually or through agents.
 - Worked on software releases and working on bug-fixes for product tests.
 
 <img style="float: right" width=100 src='/assets/cadex_logo.jpeg'>
 <strong>Research Engineer Intern</strong> (Jan 2018 - December 2018) \\
-<strong>Cadex Electronics</strong> (python/c)
+<strong>Cadex Electronics</strong>
 - Developed and implemented machine learning algorithms using Python and interfaced with database using SQL and libraries such as Django.
 - Developed firmware for DSP applications using an ARM Cortex M7(STM32). Also worked on developing code and interfacing with peripherals such as high frequency pwm generation, timers and ADC's.
 - Created a GUI using Python and PyQt5 which integrated multi-threading for the control of industrial test equipment and made an easy to use UI for others to use.
